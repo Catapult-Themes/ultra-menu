@@ -1,6 +1,6 @@
 === Ultra Menu ===
 Contributors: Catapult_Themes
-Tags: menu, nav-menu, custom-fields, mega menu, megamenu
+Tags: menu, nav-menu, custom-fields, mega menu, megamenu, dropdown menu, menu builder
 Requires at least: 4.4
 Tested up to: 4.4.2
 Stable tag: 1.0.0
@@ -11,40 +11,21 @@ Create a mega menu style dropdown menu
 
 
 == Description ==
-This is a *library* plugin. It doesn't do anything visible on its own. It was written to allow other plugins/themes to add custom fields to menu items *easily*. See **Installation**.
-
-Development of this plugin is done on [GitHub](https://github.com/kucrut/wp-menu-item-custom-fields). **Pull requests welcome**. Please see [issues reported](https://github.com/kucrut/wp-menu-item-custom-fields/issues) there before going to the plugin forum.
+This plugin adds some additional fields to your WordPress navigation menu allowing you to create a large, multi-column dropdown 'mega' menu. You can organise your dropdown menu into several columns and upload images as column headers.
 
 
 == Installation ==
 
 = As regular plugin =
-1. Upload `menu-item-custom-fields` to the `/wp-content/plugins/` directory
+1. Upload `ultra-menu` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
-= As library in your plugin/theme =
-Simply copy `menu-item-custom-fields` to your plugin directory and require the main plugin file, eg:
-`
-require_once dirname( __FILE__ ) . '/menu-item-custom-fields/menu-item-custom-fields.php';
-`
 
 = Usage =
-Copy (and customize) and include the `menu-item-custom-fields-example.php` file found in the `doc/` directory of this plugin into your plugin/theme.
+Take a look at [this article](http://catapultthemes.com/create-your-own-mega-menu-in-wordpress) for an in-depth review of the plugin.
 
 
 == Changelog ==
-= 0.3.0 =
-* Use `wp_nav_menu_item_custom_fields` as walker hook. See this [blog post](http://shazdeh.me/2014/06/25/custom-fields-nav-menu-items/).
-* Update example plugin
 
-= 0.2.1 =
-* Update compatibility info
-
-= 0.2.0 =
-* Improve walker class loader
-
-= 0.1.1 =
-* Move custom fields up (before `<p.field-move />`)
-
-= 0.1.0 =
-* Initial public release
+= 1.0.0 =
+* First commit
