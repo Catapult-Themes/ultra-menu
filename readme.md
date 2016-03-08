@@ -22,11 +22,6 @@ Based on work by [Dzikri Aziz](https://github.com/kucrut/wp-menu-item-custom-fie
 1. Upload `ultra-menu` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
-### As library in your plugin/theme ###
-Simply copy `menu-item-custom-fields` to your plugin directory and require the main plugin file, eg:
-`
-require_once dirname( __FILE__ ) . '/menu-item-custom-fields/menu-item-custom-fields.php';
-`
 
 ### Usage ###
 Take a look at [this article](http://catapultthemes.com/create-your-own-mega-menu-in-wordpress) for an in-depth review of the plugin.
