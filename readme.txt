@@ -13,6 +13,8 @@ Create a mega menu style dropdown menu
 == Description ==
 This plugin adds some additional fields to your WordPress navigation menu allowing you to create a large, multi-column dropdown 'mega' menu. You can organise your dropdown menu into several columns and upload images as column headers.
 
+Based on work by [Dzikri Aziz](https://github.com/kucrut/wp-menu-item-custom-fields) and [Weston Ruter](https://gist.github.com/3802459).
+
 
 == Installation ==
 
