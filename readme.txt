@@ -1,14 +1,13 @@
-=== Menu Item Custom Fields ===
-Contributors: kucrut
-Donate Link: http://kucrut.org/#coffee
-Tags: menu, nav-menu, custom-fields, metadata
-Requires at least: 3.8
-Tested up to: 3.9
-Stable tag: 0.3.0
+=== Ultra Menu ===
+Contributors: Catapult_Themes
+Tags: menu, nav-menu, custom-fields, mega menu, megamenu
+Requires at least: 4.4
+Tested up to: 4.4.2
+Stable tag: 1.0.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Easily add custom fields to nav menu items.
+Create a mega menu style dropdown menu
 
 
 == Description ==
